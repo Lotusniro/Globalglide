@@ -34,7 +34,7 @@
     <!-- Search Bar -->
     <div class="container">
         <div class="row justify-content-center mb-2" style="margin-bottom:3cm;">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 col-sm-12">
                 <div class="input-group ">
                     <input type="text" placeholder="Search for a country..." id="countryInput" class="form-control">
                     <div class="input-group-append">
@@ -49,7 +49,7 @@
     <div class="ps-0">
         <div class="images d-flex justify-content-around flex-row flex-wrap mb-2 w-100 pe-0 ">
             <!-- image1 -->
-            <div class="city-photo d-none m-2 p-0 text-decoration-none" id="">
+            <div class="city-photo d-none m-2 p-0 text-decoration-none " id="">
                 <div class="card city ">
                     <img class="card-img-top rounded-3" alt="city-monument">
                     <div class="card-body">
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <!-- image3 -->
-            <div class="city-photo d-none m-2 p-0 text-decoration-none" id="city-photo">
+            <div class="city-photo d-none m-2 p-0 text-decoration-none " id="city-photo">
                 <div class="card city ">
                     <img class="card-img-top rounded-3" src="" alt="city-monument">
                     <div class="card-body">
@@ -113,7 +113,7 @@
 
             <div class="row p-0 me-1">
                 <!-- Point of interests selector -->
-                <div class="col-4 poioption">
+                <div class="col-4 poioption col-sm-3">
                     <select class="poi d-none custom-select custom-select-lg mb-3 me-1" id="poiselector">
                         <option selected>Select a point of interest</option>
                         <option>Cinema</option>
@@ -122,14 +122,15 @@
                         <option>Restaurant</option>
                         <option>Museum</option>
                         <option>Map</option>
-                    </select>
 
+                    </select>
+                <!-- <div class="col poi-address m-2 col-sm-12"> </div> -->
                 </div>
                 <!-- Point of interest display -->
-                <div class="col poi-address m-2">
-
-                </div>
+                 <div class="col poi-address m-2 col-sm-9"></div>
             </div>
+
+           
         </div>
     </div>
 
